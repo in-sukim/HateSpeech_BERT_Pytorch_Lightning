@@ -7,7 +7,7 @@ def main():
 
     checkpoint_callback = ModelCheckpoint(
         monitor='val_accuracy',
-        dirpath= '/content/drive/MyDrive/Hate/model',
+        dirpath= './',
         filename='{epoch:02d}-{val_acc:.3f}',
         verbose=True,
         save_last=False,
