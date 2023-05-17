@@ -1,0 +1,9 @@
+{
+    "n_classes": 2,
+    "batch_size": 32,
+    "lr": 3e-5,
+    "warmup": 0.2,
+    "train_size" : 135,
+    "weight_decay": 0.01,
+    "n_epochs": 5
+}
